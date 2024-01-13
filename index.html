@@ -21,9 +21,9 @@
                           <a class="nav-link" href="#history">01. HISTORY</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#team">02. TEAM</a>
+                          <a class="nav-link" href="#schedule">02. TEAM</a>
                         </li>
-                        
+
                         <!-- Add more nav items -->
                       </ul>
                     </div>
@@ -33,58 +33,82 @@
               
 
         <main>
-        <!-- Hero section with large image -->
-        <section id="hero" class="d-flex align-items-center" style="background: url('./assets/mountains.jpg') no-repeat center center; background-size: cover; height: 100vh;">
-            <div class="container">
-              <h1 class="display-1 text-white">LOS ANGELES MOUNTAINS</h1>
-            </div>
-        </section>
-          
-        
-        <!-- History section -->
-        <section id="history">
-            <h2>01. HISTORY</
+            <!-- Hero section with large image -->
+            <section id="hero" class="d-flex align-items-center" style="background: url('./assets/mountains.jpg') no-repeat center center; background-size: cover; height: 100vh;">
+                <div class="container">
+                <h1 class="display-1 text-purple fw-bolder">LOS ANGELES <br> MOUNTAINS</h1>
+                </div>
+            </section>
+            
+            
+            
+            <!-- History section -->
+            <section id="history" class="carousel carousel-dark slide" data-bs-ride="carousel" style="height: 100vh;">
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#historyCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#historyCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#historyCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#historyCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#historyCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <!-- Single Caption -->
 
-        </h2>
-            <!-- Content for the history section -->
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-            <!-- Carousel for larger screens -->
-            <div class="carousel">
-            <!-- Carousel items -->
-            </div>
-        </section>
+                <div class="carousel-caption d-none d-md-block" >
+                    <h2>01. HISTORY</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                </div>
+                
+                <!-- Carousel items -->
+                <div class="carousel-inner" role="listbox">
 
-        <!-- Team section -->
-        <section id="team">
-            <h2>02. TEAM</h2>
-            <!-- Content for the team section -->
-        </section>
+                <div class="carousel-item active" data-bs-interval="5000" style="background-image: url('./assets/history1.jpg'); height: 100vh; background-size: cover; background-position: center;">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h2 >01. HISTORY</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    </div>
+                </div>
 
-        <!-- Climb section -->
-        <section id="climb">
-            <h2>02. CLIMB</h2>
-            <!-- Tabs for larger screens -->
-            <div class="tabs">
-            <div id="mountain1" class="tab">
-                <h3>MOUNTAIN 1</h3>
-                <!-- Content for Mountain 1 -->
-            </div>
-            <div id="mountain2" class="tab">
-                <h3>MOUNTAIN 2</h3>
-                <!-- Content for Mountain 2 -->
-            </div>
-            </div>
-            <!-- Accordion for smaller screens -->
-            <div class="accordion">
-            <!-- Accordion items -->
-            </div>
-        </section>
+                <div class="carousel-item" data-bs-interval="5000" style="background-image: url('./assets/histperson.jpg'); height: 100vh; background-size: cover; background-position: center;">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h2>01. HISTORY</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    </div>
+                </div>
 
-        <!-- Schedule section -->
-        <section id="schedule">
-            <h2>SCHEDULE</h2>
-            <!-- Content for the schedule section -->
-        </section>
+                <div class="carousel-item" data-bs-interval="5000" style="background-image: url('./assets/history1.jpg'); height: 100vh; background-size: cover; background-position: center;">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h2>01. HISTORY</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="5000" style="background-image: url('./assets/histperson.jpg'); height: 100vh; background-size: cover; background-position: center;">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h2>01. HISTORY</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    </div>
+                </div>
+                <!-- Repeat for other items -->
+                </div>
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#history" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#history" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </section>
+
+
+
+            <!-- Schedule section -->
+            <section id="schedule">
+                <h2>SCHEDULE</h2>
+                <!-- Content for the schedule section -->
+            </section>
         </main>
 
         <footer>
