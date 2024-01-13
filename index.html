@@ -11,7 +11,7 @@
             <header>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                   <div class="container">
-                    <a class="navbar-brand" href="#">Los Angeles Mountains</a>
+                    <a class="navbar-brand" href="#">Los Angeles<br>Mountains</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
@@ -105,10 +105,59 @@
 
 
             <!-- Schedule section -->
-            <section id="schedule">
-                <h2>SCHEDULE</h2>
-                <!-- Content for the schedule section -->
+            <section id="schedule" class="pt-5 mt-5">
+                <h2 class="text-center mb-4">SCHEDULE</h2>
+                <!-- Tab navigation for larger screens -->
+                <ul class="nav nav-tabs" id="mountainTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="mountain1-tab" data-bs-toggle="tab" data-bs-target="#mountain1" type="button" role="tab" aria-controls="mountain1" aria-selected="true">MOUNTAIN 1</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="mountain2-tab" data-bs-toggle="tab" data-bs-target="#mountain2" type="button" role="tab" aria-controls="mountain2" aria-selected="false">MOUNTAIN 2</button>
+                    </li>
+                </ul>
+                <!-- Tab content -->
+                <div class="tab-content" id="mountainTabsContent">
+                  <div class="tab-pane fade show active" id="mountain1" role="tabpanel" aria-labelledby="mountain1-tab" style="background: url('./assets/bottom.jpg') no-repeat center center; height: 100vh; background-size: cover;">
+                    <div class="container py-5">
+                        <div class="card bg-light mb-3" style="max-width: 18rem;">
+                            <div class="card-header">Mountain 1 Schedule</div>
+                            <div class="card-body">
+                            <!-- Schedule details for Mountain 1 -->
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">An item</li>
+                                    <li class="list-group-item">A second item</li>
+                                    <li class="list-group-item">A third item</li>
+                                </ul>
+
+
+                            </div>
+                        </div>
+                    </div>
+              </div>
+              <div class="tab-pane fade" id="mountain2" role="tabpanel" aria-labelledby="mountain2-tab" style="background: url('./assets/bottom2.jpg') no-repeat center center; height: 100vh; background-size: cover;">
+                <div class="container py-5">
+                    <div class="card bg-light mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Mountain 2 Schedule</div>
+
+                        <div class="card-body">
+                        <!-- Schedule details for Mountain 2 -->
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">An item</li>
+                                <li class="list-group-item">A second item</li>
+                                <li class="list-group-item">A third item</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
             </section>
+
+
+
         </main>
 
         <footer>
