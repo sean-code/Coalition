@@ -26,3 +26,22 @@ body {
 .list-group-item {
     text-decoration: none;
 }
+
+
+
+/* Logo */
+footer {
+    background-color: #101010; /* Adjust the color to match the footer background */
+    color: #ffffff;
+  }
+  
+  .footer-logo {
+    width: 150px; /* Adjust the size as needed */
+    margin-bottom: 10px;
+  }  
+
+
+footer p {
+    font-size: 0.9rem;
+    margin: 0;
+}
