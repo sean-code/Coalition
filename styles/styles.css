@@ -4,13 +4,19 @@
 
 
 
-
+/* Carousel */
 .carousel-caption {
-    top: 0; /* Position at the top of the carousel */
-    bottom: auto; /* Remove the default bottom positioning */
-    transform: translateY(20%); /* Adjust vertical alignment if necessary */
+    top: 0; 
+    bottom: auto;
+    transform: translateY(20%);
 }
 
 .carousel-caption.d-none.d-md-block {
     display: block !important;
+}
+
+
+/* Lists */
+.list-group-item {
+    text-decoration: none;
 }
