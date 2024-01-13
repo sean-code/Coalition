@@ -1,2 +1,2 @@
 
- [View Web App] (https://sean-code.github.io/Coalition/)
+ [View Web App](https://sean-code.github.io/Coalition/)
