@@ -4,9 +4,23 @@ body {
   }
 
 /* Navbar */
+.navbar-brand{
+  display: flex;
+  align-items: center;
+}
 
 
+/* First Section */
+.first_section{
+  color: #4D4D4D;
+  font-weight: 800;
+}
 
+.second_section{
+  color: #414F6B;
+  font-weight: 800;
+
+}
 
 
 
